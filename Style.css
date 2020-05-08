@@ -1,0 +1,275 @@
+/* Header */
+
+/* ul {
+    margin-left: 40px;
+    margin-top: 10px;
+} */
+
+
+/* li {
+    display: inline;
+    list-style: none;
+} */
+body {
+    padding: 0;
+    margin: 0;
+}
+li .icon {
+     text-decoration:none;
+     color: white;
+     padding: 15px;
+     font-size: 15px;
+}
+
+li:hover .icon {
+    color: rgba(13, 71, 231, 0.973) ;
+    background-color: white;
+    border-radius: 50%;}
+
+    /* Navbar */
+
+.navigation {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgb(255, 253, 253);
+    z-index: 1;
+    }
+
+    #logo {
+        width: 200px;
+        height: 100%;
+    }
+
+    
+li .nav {
+    text-decoration:none;
+    color: royalblue;
+    padding: 15px;
+    font-size: 15px bold;
+    font-weight: bold;
+}   
+
+
+
+    li:hover .nav {
+        color: white ;
+        background-color:royalblue;
+        border-radius: 20%;}
+    
+    
+
+        /* Main pic */
+    .main-pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+
+
+
+
+
+    /* News Slider */
+        .mx {
+            margin: 1px 120px 0 120px;
+            padding: 5px;
+            font-weight: bold;
+        }
+        .news-date {
+            color: green;
+        }
+        .mx a {
+            color: blue;
+        }
+
+
+
+
+        /* introduction */
+
+        .favicon {
+            color: green;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        .favicon img {
+            width: 50px;
+        }
+
+        .intro-para {
+            margin: 0 120px 0 120px;
+            /* color: black; */
+        }
+        .intro-para p {
+            color: black;
+        }
+
+        /* Counter */
+       
+       .count {
+           padding: 70px;
+       }
+        .counter img {
+            width: 50px;
+        }
+        
+        .counter h1 {
+            color: white;
+            font-family: monospace;
+        }
+        .counter p {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .facility {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            
+        }
+
+        .facility h3 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+
+        .boxes {
+            /* margin: 0 5% 0 5%; */
+            margin-left: 10%;
+            margin-right: 10%;
+            /* display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; */
+            
+            
+        }
+
+
+        .box {
+            width: 350px;
+            height: 200px;
+            /* border: solid black 1px; */
+            margin: 10px 10px ;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(89, 139, 231);
+            box-shadow: 3px 3px 7px gray;
+            background-color: white;
+            
+            
+        }
+        
+        .box img {
+            width: 70px;
+            margin-top: 50px;
+        }
+
+
+        .Project span {
+            text-transform: uppercase;
+            color: royalblue;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+
+
+        .sm-box {
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: 30px; */
+            /* width: 800px; */}
+
+
+
+
+
+        .sm-boxes {
+            width: 300px;
+            height: 50px;
+            box-shadow: 3px 3px 7px gray;
+            margin: 30px;    
+        }
+
+        .news {
+            height: 200px;
+            overflow: scroll;
+        }
+
+        .image-gallery {
+            padding-bottom: 100px;
+        }
+
+        .image-gallery img {
+            width: 100x;
+            height: 140px;
+            margin: 1px;
+        
+        }
+
+
+        .contact {
+            padding: 60px 0 60px 40px;
+        }
+
+         p ,span {
+            color: rgb(196, 196, 196);
+            /* font-size: 12px; */
+        
+        }
+        
+         .number i {
+            color: green;
+        }
+        
+         .number li {
+            display: block;
+            line-height: 2rem;
+        }
+        
+        .links i {
+            color: green;
+        }
+        
+        .links h3 {
+            color: white;
+            font-size: 20px;
+        }
+        
+        .links b {
+            color: gray;
+        }
+        
+        .connect h3 {
+            color: white;
+            font-size: 20px;
+        }
+        
+        .connect i  {
+            color: royalblue;
+            font-size: 25px;
+            margin: 5px;
+        }
+
+        .connect li {
+            display: inline;
+        }
+
+
+
+        footer {
+            /* background-color: royalblue; */
+            color: white;
+            padding: 5px;
+        }
+        
+        footer p {
+            margin: 10px 0;
+            color: white;
